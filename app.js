@@ -1,7 +1,7 @@
 function sortear() {
-    let quantidade = document.getElementById('quantidade').value;
-    let de = document.getElementById('de').value;
-    let ate = document.getElementById('ate').value;
+    let quantidade = parseInt(document.getElementById('quantidade').value);
+    let de = parseInt(document.getElementById('de').value)
+    let ate = parseInt(document.getElementById('ate').value);
 
     console.log(`quantidade: ${quantidade}`)
     console.log(`de: ${de}`)
@@ -9,6 +9,7 @@ function sortear() {
 
 }
 
-// sortear()
 
-// function reiniciar () {}
+function obterNumeroAleatorio(min, max) {
+
+}
